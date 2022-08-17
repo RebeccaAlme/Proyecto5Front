@@ -6,6 +6,9 @@ import Navbar from 'react-bootstrap/Navbar'
 const footer = () => {
   return (
     <>
+    <div>
+      <br />
+    </div>
     <Navbar>
       <Container>
         <Navbar.Brand href="#home">Síguenos en nuestras redes sociales y recibe increíbles descuentos</Navbar.Brand>

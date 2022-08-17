@@ -19,16 +19,16 @@ const navBar = () => {
         <Nav>
           
           <NavDropdown title="Mi cuenta" id="collasible-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Registrarme</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
+            <NavDropdown.Item href="/registrarme">Registrarme</NavDropdown.Item>
+            <NavDropdown.Item href="/iniciarsesion">
               Iniciar sesión
             </NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">
+            <NavDropdown.Item href="/logout">
               Cerrar sesión
             </NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link eventKey={2} href="#memes">
+          <Nav.Link eventKey={2} href="/carrito">
             Carrito
           </Nav.Link>
         </Nav>
